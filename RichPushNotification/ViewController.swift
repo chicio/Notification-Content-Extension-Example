@@ -17,6 +17,7 @@ class ViewController: UIViewController {
         notificationContent.title = "Your Nasa Daily Photo"
         notificationContent.body = "Long press to see you daily nasa photo"
         notificationContent.sound = UNNotificationSound.default()
+        notificationContent.categoryIdentifier = "NasaDailyPhoto"
         
         let trigger = UNTimeIntervalNotificationTrigger(timeInterval: 5, repeats: false)
         let request = UNNotificationRequest(identifier: "NasaNotification", content: notificationContent, trigger: trigger)
