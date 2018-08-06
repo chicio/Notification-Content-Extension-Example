@@ -16,7 +16,7 @@
 		452673BC2118E1260090D209 /* UserNotificationsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 452673BB2118E1260090D209 /* UserNotificationsUI.framework */; };
 		452673BF2118E1260090D209 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452673BE2118E1260090D209 /* NotificationViewController.swift */; };
 		452673C22118E1260090D209 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 452673C02118E1260090D209 /* MainInterface.storyboard */; };
-		452673C62118E1260090D209 /* RichPushNotificationContentExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 452673B72118E1260090D209 /* RichPushNotificationContentExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		452673C62118E1260090D209 /* NasaNotificationContentExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 452673B72118E1260090D209 /* NasaNotificationContentExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				452673C62118E1260090D209 /* RichPushNotificationContentExtension.appex in Embed App Extensions */,
+				452673C62118E1260090D209 /* NasaNotificationContentExtension.appex in Embed App Extensions */,
 			);
 			name = "Embed App Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -44,14 +44,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4526739E2118DD5E0090D209 /* RichPushNotification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RichPushNotification.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4526739E2118DD5E0090D209 /* NasaNotification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NasaNotification.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		452673A12118DD5E0090D209 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		452673A32118DD5E0090D209 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		452673A62118DD5E0090D209 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		452673A82118DD5F0090D209 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		452673AB2118DD5F0090D209 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		452673AD2118DD5F0090D209 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		452673B72118E1260090D209 /* RichPushNotificationContentExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = RichPushNotificationContentExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		452673B72118E1260090D209 /* NasaNotificationContentExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NasaNotificationContentExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		452673B92118E1260090D209 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
 		452673BB2118E1260090D209 /* UserNotificationsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotificationsUI.framework; path = System/Library/Frameworks/UserNotificationsUI.framework; sourceTree = SDKROOT; };
 		452673BE2118E1260090D209 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
@@ -82,8 +82,8 @@
 		452673952118DD5E0090D209 = {
 			isa = PBXGroup;
 			children = (
-				452673A02118DD5E0090D209 /* RichPushNotification */,
-				452673BD2118E1260090D209 /* RichPushNotificationContentExtension */,
+				452673A02118DD5E0090D209 /* NasaNotification */,
+				452673BD2118E1260090D209 /* NasaNotificationContentExtension */,
 				452673B82118E1260090D209 /* Frameworks */,
 				4526739F2118DD5E0090D209 /* Products */,
 			);
@@ -92,13 +92,13 @@
 		4526739F2118DD5E0090D209 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4526739E2118DD5E0090D209 /* RichPushNotification.app */,
-				452673B72118E1260090D209 /* RichPushNotificationContentExtension.appex */,
+				4526739E2118DD5E0090D209 /* NasaNotification.app */,
+				452673B72118E1260090D209 /* NasaNotificationContentExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		452673A02118DD5E0090D209 /* RichPushNotification */ = {
+		452673A02118DD5E0090D209 /* NasaNotification */ = {
 			isa = PBXGroup;
 			children = (
 				452673A12118DD5E0090D209 /* AppDelegate.swift */,
@@ -108,7 +108,7 @@
 				452673AA2118DD5F0090D209 /* LaunchScreen.storyboard */,
 				452673AD2118DD5F0090D209 /* Info.plist */,
 			);
-			path = RichPushNotification;
+			path = NasaNotification;
 			sourceTree = "<group>";
 		};
 		452673B82118E1260090D209 /* Frameworks */ = {
@@ -120,22 +120,22 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		452673BD2118E1260090D209 /* RichPushNotificationContentExtension */ = {
+		452673BD2118E1260090D209 /* NasaNotificationContentExtension */ = {
 			isa = PBXGroup;
 			children = (
 				452673BE2118E1260090D209 /* NotificationViewController.swift */,
 				452673C02118E1260090D209 /* MainInterface.storyboard */,
 				452673C32118E1260090D209 /* Info.plist */,
 			);
-			path = RichPushNotificationContentExtension;
+			path = NasaNotificationContentExtension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4526739D2118DD5E0090D209 /* RichPushNotification */ = {
+		4526739D2118DD5E0090D209 /* NasaNotification */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 452673B02118DD5F0090D209 /* Build configuration list for PBXNativeTarget "RichPushNotification" */;
+			buildConfigurationList = 452673B02118DD5F0090D209 /* Build configuration list for PBXNativeTarget "NasaNotification" */;
 			buildPhases = (
 				4526739A2118DD5E0090D209 /* Sources */,
 				4526739B2118DD5E0090D209 /* Frameworks */,
@@ -147,14 +147,14 @@
 			dependencies = (
 				452673C52118E1260090D209 /* PBXTargetDependency */,
 			);
-			name = RichPushNotification;
+			name = NasaNotification;
 			productName = RichPushNotification;
-			productReference = 4526739E2118DD5E0090D209 /* RichPushNotification.app */;
+			productReference = 4526739E2118DD5E0090D209 /* NasaNotification.app */;
 			productType = "com.apple.product-type.application";
 		};
-		452673B62118E1260090D209 /* RichPushNotificationContentExtension */ = {
+		452673B62118E1260090D209 /* NasaNotificationContentExtension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 452673C72118E1260090D209 /* Build configuration list for PBXNativeTarget "RichPushNotificationContentExtension" */;
+			buildConfigurationList = 452673C72118E1260090D209 /* Build configuration list for PBXNativeTarget "NasaNotificationContentExtension" */;
 			buildPhases = (
 				452673B32118E1260090D209 /* Sources */,
 				452673B42118E1260090D209 /* Frameworks */,
@@ -164,9 +164,9 @@
 			);
 			dependencies = (
 			);
-			name = RichPushNotificationContentExtension;
+			name = NasaNotificationContentExtension;
 			productName = RichPushNotificationContentExtension;
-			productReference = 452673B72118E1260090D209 /* RichPushNotificationContentExtension.appex */;
+			productReference = 452673B72118E1260090D209 /* NasaNotificationContentExtension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
@@ -187,7 +187,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 452673992118DD5E0090D209 /* Build configuration list for PBXProject "RichPushNotification" */;
+			buildConfigurationList = 452673992118DD5E0090D209 /* Build configuration list for PBXProject "NasaNotification" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -200,8 +200,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4526739D2118DD5E0090D209 /* RichPushNotification */,
-				452673B62118E1260090D209 /* RichPushNotificationContentExtension */,
+				4526739D2118DD5E0090D209 /* NasaNotification */,
+				452673B62118E1260090D209 /* NasaNotificationContentExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -250,7 +250,7 @@
 /* Begin PBXTargetDependency section */
 		452673C52118E1260090D209 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 452673B62118E1260090D209 /* RichPushNotificationContentExtension */;
+			target = 452673B62118E1260090D209 /* NasaNotificationContentExtension */;
 			targetProxy = 452673C42118E1260090D209 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -404,12 +404,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y682K92RZU;
-				INFOPLIST_FILE = RichPushNotification/Info.plist;
+				INFOPLIST_FILE = NasaNotification/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = it.chicio.RichPushNotification;
+				PRODUCT_BUNDLE_IDENTIFIER = it.chicio.NasaNotification;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -423,12 +423,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y682K92RZU;
-				INFOPLIST_FILE = RichPushNotification/Info.plist;
+				INFOPLIST_FILE = NasaNotification/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = it.chicio.RichPushNotification;
+				PRODUCT_BUNDLE_IDENTIFIER = it.chicio.NasaNotification;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -440,13 +440,13 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y682K92RZU;
-				INFOPLIST_FILE = RichPushNotificationContentExtension/Info.plist;
+				INFOPLIST_FILE = NasaNotificationContentExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = it.chicio.RichPushNotification.RichPushNotificationContentExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = it.chicio.NasaNotification.NasaNotificationContentExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
@@ -459,13 +459,13 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y682K92RZU;
-				INFOPLIST_FILE = RichPushNotificationContentExtension/Info.plist;
+				INFOPLIST_FILE = NasaNotificationContentExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = it.chicio.RichPushNotification.RichPushNotificationContentExtension;
+				PRODUCT_BUNDLE_IDENTIFIER = it.chicio.NasaNotification.NasaNotificationContentExtension;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
@@ -476,7 +476,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		452673992118DD5E0090D209 /* Build configuration list for PBXProject "RichPushNotification" */ = {
+		452673992118DD5E0090D209 /* Build configuration list for PBXProject "NasaNotification" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				452673AE2118DD5F0090D209 /* Debug */,
@@ -485,7 +485,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		452673B02118DD5F0090D209 /* Build configuration list for PBXNativeTarget "RichPushNotification" */ = {
+		452673B02118DD5F0090D209 /* Build configuration list for PBXNativeTarget "NasaNotification" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				452673B12118DD5F0090D209 /* Debug */,
@@ -494,7 +494,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		452673C72118E1260090D209 /* Build configuration list for PBXNativeTarget "RichPushNotificationContentExtension" */ = {
+		452673C72118E1260090D209 /* Build configuration list for PBXNativeTarget "NasaNotificationContentExtension" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				452673C82118E1260090D209 /* Debug */,
