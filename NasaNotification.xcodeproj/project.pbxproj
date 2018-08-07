@@ -17,6 +17,7 @@
 		452673BF2118E1260090D209 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452673BE2118E1260090D209 /* NotificationViewController.swift */; };
 		452673C22118E1260090D209 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 452673C02118E1260090D209 /* MainInterface.storyboard */; };
 		452673C62118E1260090D209 /* NasaNotificationContentExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 452673B72118E1260090D209 /* NasaNotificationContentExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		45F7CBC0211A30BD0045A7B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 452673A82118DD5F0090D209 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -221,6 +222,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45F7CBC0211A30BD0045A7B2 /* Assets.xcassets in Resources */,
 				452673C22118E1260090D209 /* MainInterface.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

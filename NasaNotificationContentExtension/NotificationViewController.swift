@@ -11,13 +11,17 @@ import UserNotifications
 import UserNotificationsUI
 
 class NotificationViewController: UIViewController, UNNotificationContentExtension {
-    @IBOutlet var label: UILabel?
+    @IBOutlet weak var nasaImage: UIImageView!
+    @IBOutlet weak var nasaTitle: UILabel!
+    @IBOutlet weak var nasaDescription: UILabel!
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any required interface initialization here.
-    }
-
     func didReceive(_ notification: UNNotification) {
+        if let validTitle = notification.request.content.userInfo["title"] as? String,
+            let validDescription = notification.request.content.userInfo["description"] as? String,
+            let validImageName = notification.request.content.userInfo["imageName"] as? String {
+            nasaTitle.text = validTitle
+            nasaDescription.text = validDescription
+            nasaImage.image = UIImage(named: validImageName)
+        }
     }
 }
