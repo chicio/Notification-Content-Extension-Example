@@ -17,6 +17,7 @@
 		452673BF2118E1260090D209 /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452673BE2118E1260090D209 /* NotificationViewController.swift */; };
 		452673C22118E1260090D209 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 452673C02118E1260090D209 /* MainInterface.storyboard */; };
 		452673C62118E1260090D209 /* NasaNotificationContentExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 452673B72118E1260090D209 /* NasaNotificationContentExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		453CC46B211B8F1D007EEFAF /* NasaNotificationBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453CC46A211B8F1D007EEFAF /* NasaNotificationBuilder.swift */; };
 		45F7CBC0211A30BD0045A7B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 452673A82118DD5F0090D209 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
@@ -58,6 +59,7 @@
 		452673BE2118E1260090D209 /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
 		452673C12118E1260090D209 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
 		452673C32118E1260090D209 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		453CC46A211B8F1D007EEFAF /* NasaNotificationBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NasaNotificationBuilder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 			children = (
 				452673A12118DD5E0090D209 /* AppDelegate.swift */,
 				452673A32118DD5E0090D209 /* ViewController.swift */,
+				453CC46A211B8F1D007EEFAF /* NasaNotificationBuilder.swift */,
 				452673A52118DD5E0090D209 /* Main.storyboard */,
 				452673A82118DD5F0090D209 /* Assets.xcassets */,
 				452673AA2118DD5F0090D209 /* LaunchScreen.storyboard */,
@@ -236,6 +239,7 @@
 			files = (
 				452673A42118DD5E0090D209 /* ViewController.swift in Sources */,
 				452673A22118DD5E0090D209 /* AppDelegate.swift in Sources */,
+				453CC46B211B8F1D007EEFAF /* NasaNotificationBuilder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,9 +1,8 @@
 //
 //  AppDelegate.swift
-//  RichPushNotification
 //
-//  Created by Fabrizio Duroni on 06.08.18.
-//  Copyright © 2018 Fabrizio Duroni. All rights reserved.
+//  Created by Fabrizio Duroni on 06/08/2018.
+//  2018 Fabrizio Duroni.
 //
 
 import UIKit
@@ -14,8 +13,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
     func application(_ application: UIApplication,
-                     didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?
-    ) -> Bool {
+                     didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         UNUserNotificationCenter
             .current()
             .requestAuthorization(options: [.alert, .sound, .badge],
