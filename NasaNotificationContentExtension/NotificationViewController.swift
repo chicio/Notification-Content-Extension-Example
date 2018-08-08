@@ -1,9 +1,8 @@
 //
 //  NotificationViewController.swift
-//  RichPushNotificationContentExtension
 //
-//  Created by Fabrizio Duroni on 06.08.18.
-//  Copyright © 2018 Fabrizio Duroni. All rights reserved.
+//  Created by Fabrizio Duroni on 07/08/2018.
+//  2018 Fabrizio Duroni.
 //
 
 import UIKit
