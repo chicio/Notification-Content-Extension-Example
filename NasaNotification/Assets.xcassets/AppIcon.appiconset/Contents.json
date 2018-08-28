@@ -26,8 +26,9 @@
       "scale" : "2x"
     },
     {
-      "idiom" : "iphone",
       "size" : "40x40",
+      "idiom" : "iphone",
+      "filename" : "nasa-1.png",
       "scale" : "3x"
     },
     {
