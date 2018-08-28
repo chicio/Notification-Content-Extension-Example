@@ -4,7 +4,7 @@
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/chicio/Notification-Content-Extension-Example/master/LICENSE.md)
 
 An example project in which I show how it is possible to customize the UI of a notification by using Notification Content Extension.
-This is a project for my blog post [Rich iOS notifications with Notification Content Extensions](/2018/09/10/ios-notification-content-extensions.html).
+This is a project for my blog post [Rich iOS notifications with Notification Content Extensions](https://www.fabrizioduroni.it/2018/09/10/ios-notification-content-extensions.html).
 
 ***
 
@@ -17,4 +17,4 @@ This is a quote from the post:
 Content App Extension. This extension has been added by Apple in iOS 10 let you customize the UI of your 
 notification. In this way you can send more engaging notification to your users....
 
-Click [here](/2018/09/10/ios-notification-content-extensions.html) to read the post.
+Click [here](https://www.fabrizioduroni.it/2018/09/10/ios-notification-content-extensions.html) to read the post.
